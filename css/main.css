@@ -1,7 +1,26 @@
-/* Hint! the @font-face rule needs to be the first thing in your CSS file!*/
+
+@font-face {
+    font-family: 'andadaregular';
+    src: url('../fonts/andada-regular-webfont.woff2') format('woff2'),
+         url('../fonts/andada-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'allerregular';
+    src: url('../fonts/aller_rg-webfont.woff2') format('woff2'),
+         url('../fonts/aller_rg-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 
-/* Start the CSS*/
+
+
+
 body {
 	margin: 0;
 	padding: 0;
@@ -22,29 +41,29 @@ body {
 }
 
 h1 {
-
+font-family: 'allerregular';
 }
 
 h2 {
-
+font-family: 'allerregular';
 }
 
 h3 {
-
+font-family: 'allerregular';
 }
 
 h4 {
-
+font-family: 'allerregular';
 }
 
 h5 {
-
+font-family: 'allerregular';
 }
 
 h6 {
-
+font-family: 'allerregular';
 }
 
 p {
-
+font-family: 'andadaregular';
 }
